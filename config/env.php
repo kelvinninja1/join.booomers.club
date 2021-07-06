@@ -1,5 +1,5 @@
 <?php
-    $dev_environment = true; //true //false
+    $dev_environment = false; //true //false
     $base_url = ($dev_environment) ? "http://localhost/join.booomers.club" : "";
 
     // for production
