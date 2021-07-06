@@ -5,7 +5,7 @@
     // for production
     $productionConfig = [
         'host' => "localhost",
-        'dbName' => "ourcomunmmy_join_booomers_db",
+        'dbName' => "join_booomers_db",
         'username' => "ourco_matrix",
         'password' => "@4dm1n123#"
     ];
