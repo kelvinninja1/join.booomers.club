@@ -23,7 +23,7 @@ if (isset($_POST['submit'])){
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Ourcomunity, Investment, ourcommunity, make money online, where the money grows">
+    <meta name="description" content="Booomers, Social Media Marketing Agency, Affiliate Club, earn sharing stuff on social media, make money online with referrals">
     <meta name="author" content="ikelvin.co">
 
     <title>Booomers.club coming soon!!! - We will be be online soon</title>
