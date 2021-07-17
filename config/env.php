@@ -1,5 +1,23 @@
 <?php
     $dev_environment = false; //true //false
     $base_url = ($dev_environment) ? "http://localhost/join.booomers.club" : "";
-//echo $base_url;
+
+    // for production
+    $productionConfig = [
+        'host' => "localhost",
+        'dbName' => "join_booomers_db",
+        'username' => "ourco_matrix",
+        'password' => "@4dm1n123#"
+    ];
+
+    // for development
+    $developmentConfig = [
+        'host' => "localhost",
+        'dbName' => "join_booomers_db",
+        'username' => "root",
+        'password' => ""
+    ];
+
+    $DBconfig = ($dev_environment) ? $developmentConfig : $productionConfig;
+    $db = new DB($DBconfig['host'], $DBconfig['dbName'], $DBconfig['username'], $DBconfig['password']);
 ?>
