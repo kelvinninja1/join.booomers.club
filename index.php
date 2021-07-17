@@ -26,7 +26,7 @@ if (isset($_POST['submit'])){
     <meta name="description" content="Booomers, Social Media Marketing Agency, Affiliate Club, earn sharing stuff on social media, make money online with referrals">
     <meta name="author" content="ikelvin.co">
 
-    <title>Booomers.club coming soon!!! - We will be be online soon</title>
+    <title>Booomers.club | With you, we engineer viral marketing through our affiliate Club</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -59,21 +59,22 @@ if (isset($_POST['submit'])){
         <div class="row h-100">
           <div class="col-12 my-auto">
             <div class="masthead-content text-white py-5 py-md-0">
-              <h1 class="mb-2">Coming Soon!</h1>
-              <p class="mb-2">We're working hard to commence the operations of this platform. Our target pre-launch beta release date is
-                <strong> 10th July 2021</strong>!
+              <h2 class="mb-2">Booomers.club!</h2>
+              <p class="mb-2 text-small">
+                  Access is limited to a small group of testers during the pre-launch beta release of Booomers Club.
+                  <strong>Join the waitlist today </strong> for your chance to try it out and earn some money whilst we improve.
                  <!-- Sign up for updates using the form below! -->
                </p>
 
-              <h2>
+              <h3>
                 <span class="text-danger">#JoinTheWaitlist</span>,
-              </h2>
-                <h1>
-                  <span class="text-warning">#GetReady</span>
-                </h1>
+              </h3>
                 <h2>
-                  <span class="text-success">#BeAmongTheFirst</span>
+                  <span class="text-warning">#GetReady</span>
                 </h2>
+                <h3>
+                  <span class="text-success">#BeAmongTheFirst</span>
+                </h3>
                 <h2>
                   <span class="text-white h5">to join the All New </span>
   								<span class="text-primary">#BooomersClub</span>
