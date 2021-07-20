@@ -60,25 +60,26 @@ if (isset($_POST['submit'])){
           <div class="col-12 my-auto">
             <div class="masthead-content text-white py-5 py-md-0">
               <h2 class="mb-2">Booomers.club!</h2>
-              <p class="mb-2 text-small">
+              <p class="mb-4 text-small">
                   Access is limited to a small group of testers during the pre-launch beta release of Booomers Club.
                   <strong>Join the waitlist today </strong> for your chance to try it out and earn some money whilst we improve.
                  <!-- Sign up for updates using the form below! -->
                </p>
 
               <h3>
-                <span class="text-danger">#JoinTheWaitlist</span>,
+                <span class="text-primary">#JoinTheWaitlist</span>,
               </h3>
                 <h2>
                   <span class="text-warning">#GetReady</span>
                 </h2>
-                <h3>
-                  <span class="text-success">#BeAmongTheFirst</span>
-                </h3>
+<!--                <h3>-->
+<!--                  <span class="text-primary">#BeAmongTheFirst</span>-->
+<!--                </h3>-->
                 <h2>
-                  <span class="text-white h5">to join the All New </span>
-  								<span class="text-primary">#BooomersClub</span>
+                  <span class="text-white h6">to join the All New </span>
+  								<span class="text-white-50 text-outline">#BooomersClub</span>
   							</h2>
+                <br/>
                 <h4 class="text-uppercase">earn while you share</h4>
   							<p class="text-white text-small">
   								Membership request fee, terms and conditions apply
