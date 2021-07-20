@@ -2,6 +2,14 @@
 require_once ('libs/echoDB/DB.php');
 require_once ('config/env.php');
 
+if (isset($_REQUEST['link'])){
+    $link = $_REQUEST['link'];
+    //    Insert into waitlist if it doesnt already exist
+    $db->query("INSERT INTO `invites_tb`(`invite_code`) VALUES ('$link')");
+    //    Redirect to Google Forms
+    header("location: https://booomers.club/join/$link");
+}
+
 if (isset($_POST['submit'])){
     $phone = $_POST['phone'];
     $full_phone = $_POST['full_phone'];
